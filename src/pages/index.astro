@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import FootSection from "../components/FootSection";
+import MiddleSection from "../components/MiddleSection";
+---
+
+<Layout title="Directory">
+  <MiddleSection client:only />
+  <FootSection />
+</Layout>
