@@ -1,4 +1,4 @@
-import React, { useEffect, Suspense } from 'react'
+import React, { useEffect } from 'react'
 import HeaderSection from './HeaderSection'
 import FootSection from './FootSection'
 
@@ -44,21 +44,19 @@ function Results({ routeName }) {
                     </div>
 
                     <div className='w-[70%] grid grid-cols-2 grid-rows-2'>
-                        <Suspense fallback={<h1>Loading...</h1>}>
-                            {res.map((item, i) => {
-                                return (
-                                    <div className='card w-[80%] flex flex-col p-4' key={i}>
-                                        <img loading='lazy' src={item.profilephoto} className='mask mask-circle object-cover self-center w-32 h-32' alt={i} />
-                                        <h1 className='card-title'>{item.FirstName}</h1>
-                                        <div className='card-body'>
-                                            <h1>{item.LastName}</h1>
-                                            <h1>{item.MobileNumber}</h1>
-                                            <h1>{item.EmailAddress}</h1>
-                                        </div>
+                        {res.map((item, i) => {
+                            return (
+                                <div className='card w-[80%] flex flex-col p-4' key={i}>
+                                    <img loading='lazy' src={item.profilephoto} className='mask mask-circle object-cover self-center w-32 h-32' alt={i} />
+                                    <h1 className='card-title'>{item.FirstName}</h1>
+                                    <div className='card-body'>
+                                        <h1>{item.LastName}</h1>
+                                        <h1>{item.MobileNumber}</h1>
+                                        <h1>{item.EmailAddress}</h1>
                                     </div>
-                                )
-                            })}
-                        </Suspense>
+                                </div>
+                            )
+                        })}
                     </div>
                 </div>
             </div>
