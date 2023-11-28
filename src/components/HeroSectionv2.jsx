@@ -27,7 +27,7 @@ function HeroSectionv2() {
                             <div className="p-2 flex lg:w-full md:w-[50%] col-span-1 col-start-2 justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
-                                        src="/Interactive media.png"
+                                        src="/Interactivemedia.png"
                                         alt="interactive"
                                         className="shrink object-contain p-4"
                                     />
@@ -37,7 +37,7 @@ function HeroSectionv2() {
                             <div className="p-2 flex lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
-                                        src="/Creative Services.png"
+                                        src="/CreativeServices.png"
                                         alt="interactive"
                                         className="shrink object-contain p-4"
                                     />
@@ -69,7 +69,7 @@ function HeroSectionv2() {
                             <div className="p-2 flex lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] flex flex-col items-center lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
-                                        src="/Performing Arts.png"
+                                        src="/PerformingArts.png"
                                         alt="interactive"
                                         className="shrink object-contain w-[90%] h-[90%] p-4"
                                     />
