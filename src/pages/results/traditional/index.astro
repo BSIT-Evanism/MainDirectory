@@ -1,1 +1,11 @@
-<h1>Traditional Cultural</h1>
+---
+import Results from "../../../components/Results";
+import Layout from "../../../layouts/Layout.astro";
+
+let routeN = "Traditional Cultural Media";
+---
+
+<Layout title={routeN}>
+  <h1>Traditional Cultural Media</h1>
+  <Results routeName={routeN} client:only />
+</Layout>

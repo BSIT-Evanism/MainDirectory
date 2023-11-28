@@ -17,7 +17,7 @@ function HeroSectionv2() {
                             <a href='/results/audiovisual' className="p-2 flex lg:w-full md:w-[50%] col-span-1 col-start-1 justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50 shrink">
                                     <img
-                                        src="/public/Music.png"
+                                        src="/Music.png"
                                         alt="audiovisual"
                                         className="shrink object-contain p-4"
                                     />
@@ -27,7 +27,7 @@ function HeroSectionv2() {
                             <div className="p-2 flex lg:w-full md:w-[50%] col-span-1 col-start-2 justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
-                                        src="/public/Interactive media.png"
+                                        src="/Interactive media.png"
                                         alt="interactive"
                                         className="shrink object-contain p-4"
                                     />
