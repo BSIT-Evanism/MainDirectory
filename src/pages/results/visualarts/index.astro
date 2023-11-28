@@ -1,0 +1,11 @@
+---
+import Results from "../../../components/Results";
+import Layout from "../../../layouts/Layout.astro";
+
+let routeN = "Visual Arts";
+---
+
+<Layout title={routeN}>
+  <h1>visual arts</h1>
+  <Results routeName={routeN} client:only />
+</Layout>
