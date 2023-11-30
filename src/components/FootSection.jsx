@@ -3,8 +3,8 @@ import React from 'react'
 
 function FootSection() {
     return (
-        <div>
-            <div className="self-center flex w-full justify-around gap-5 mt-14 mb-20 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center max-md:my-10">
+        <div className='bg-white h-auto py-10'>
+            <div className="self-center flex w-full justify-around gap-5 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center max-md:my-10">
                 <section className="w-[50%]">
                     <div className="flex gap-20">
                         <img

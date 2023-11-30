@@ -13,8 +13,8 @@ function HeroSectionv2() {
                         </h1>
                     </div>
                     <div className="lg:w-[70%] lg:col-span-3 md:col-span-6 md:w-screen lg:h-full md:h-fit">
-                        <div className="w-full h-full p-4 grid lg:grid-cols-3 md:grid-cols-2">
-                            <a href='/results/audiovisual' className="p-2 flex lg:w-full md:w-[50%] col-span-1 col-start-1 justify-center items-center">
+                        <div className="w-full [&:has(a:hover)>a:not(:hover)]:scale-75 [&:has(a:hover)>a:not(:hover)]:brightness-75 h-full p-4 grid lg:grid-cols-3 md:grid-cols-2">
+                            <a href='/results/audiovisual' className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] col-span-1 col-start-1 justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50 shrink">
                                     <img
                                         src="/Music.png"
@@ -24,17 +24,17 @@ function HeroSectionv2() {
                                     <p className="text-center text-[18px]">AudioVisual Media</p>
                                 </div>
                             </a>
-                            <div className="p-2 flex lg:w-full md:w-[50%] col-span-1 col-start-2 justify-center items-center">
+                            <a href='/results/interactivemedia' className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] col-span-1 col-start-2 justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
                                         src="/Interactivemedia.png"
                                         alt="interactive"
                                         className="shrink object-contain p-4"
                                     />
-                                    <p className="text-center text-[18px]">Interactive Media</p>
+                                    <p className="text-center text-[18px]">Digital Interactive Media</p>
                                 </div>
-                            </div>
-                            <div className="p-2 flex lg:w-full md:w-[50%] justify-center items-center">
+                            </a>
+                            <a href='/results/creativeservices' className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
                                         src="/CreativeServices.png"
@@ -43,8 +43,8 @@ function HeroSectionv2() {
                                     />
                                     <p className="text-center text-[18px]">Creative Services</p>
                                 </div>
-                            </div>
-                            <div className="p-2 flex lg:w-full md:w-[50%] justify-center items-center">
+                            </a>
+                            <a href='/results/design' className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] flex-col flex justify-center items-center lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
                                         src="/Architecture.png"
@@ -53,8 +53,8 @@ function HeroSectionv2() {
                                     />
                                     <p className="text-center text-[18px]">Design</p>
                                 </div>
-                            </div>
-                            <div className="p-2 flex lg:w-full md:w-[50%] justify-center items-center">
+                            </a>
+                            <a href="/results/publishingmedia" className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] flex flex-col items-center lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
                                         src="/Publishing.png"
@@ -65,8 +65,8 @@ function HeroSectionv2() {
                                         Publishing and Printed Media
                                     </p>
                                 </div>
-                            </div>
-                            <div className="p-2 flex lg:w-full md:w-[50%] justify-center items-center">
+                            </a>
+                            <a href='/results/performingarts' className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] flex flex-col items-center lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
                                         src="/PerformingArts.png"
@@ -75,8 +75,8 @@ function HeroSectionv2() {
                                     />
                                     <p className="text-center text-[18px]">Performing Arts</p>
                                 </div>
-                            </div>
-                            <a href='/results/visualarts' className="p-2 flex lg:w-full md:w-[50%] justify-center items-center">
+                            </a>
+                            <a href='/results/visualarts' className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] flex flex-col items-center lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
                                         src="/Visual.png"
@@ -86,7 +86,7 @@ function HeroSectionv2() {
                                     <p className="text-center text-[18px]">Visual Arts</p>
                                 </div>
                             </a>
-                            <div className="p-2 flex lg:w-full md:w-[50%] justify-center items-center">
+                            <a href="/results/traditional" className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] flex flex-col items-center lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
                                         src="/PerformingArts2.png"
@@ -97,8 +97,8 @@ function HeroSectionv2() {
                                         Traditional Cultural <br /> Expressions
                                     </p>
                                 </div>
-                            </div>
-                            <div className="p-2 flex lg:w-full md:w-[50%] justify-center items-center">
+                            </a>
+                            <a href="/results/culturalsites" className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] flex flex-col items-center lg:h-[17vw] md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
                                         src="/Visual2nd.png"
@@ -107,13 +107,13 @@ function HeroSectionv2() {
                                     />
                                     <p className="text-center text-[18px]">Cultural Sites</p>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-            pnpm </div>
+        </div>
     )
 }
 
