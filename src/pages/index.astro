@@ -1,11 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
 import FootSection from "../components/FootSection";
 import MiddleSection from "../components/MiddleSection";
+import HeroSection from "../components/HeroSection";
+import HeaderSection from "../components/HeaderSection";
+import HeroSectionv2 from "../components/HeroSectionv2";
 ---
 
 <Layout title="Directory">
-  <MiddleSection client:only />
+  <HeaderSection loading={false} client:only />
+  <!-- <HeroSection client:only /> -->
+  <HeroSectionv2 />
+  <!-- <MiddleSection client:only /> -->
   <FootSection />
 </Layout>
