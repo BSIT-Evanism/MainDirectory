@@ -35,11 +35,11 @@ function HeroSectionv2() {
                                 </div>
                             </a>
                             <a href='/results/creativeservices' className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
-                                <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[28vh] card md:w-full md:h-full rounded-2xl bg-slate-50">
+                                <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[28vh] flex-col flex justify-center items-center md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
-                                        src="/CreativeServices.png"
+                                        src="/creativeservices3.png"
                                         alt="interactive"
-                                        className=" object-contain lg:w-40 md:w-48 h-64 p-4"
+                                        className="object-contain lg:w-32 md:w-48 h-64 p-4"
                                     />
                                     <p className="text-center text-[18px]">Creative Services</p>
                                 </div>
@@ -47,7 +47,7 @@ function HeroSectionv2() {
                             <a href='/results/design' className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[28vh] flex-col flex justify-center items-center md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
-                                        src="/Architecture.png"
+                                        src="/DesignServices.png"
                                         alt="interactive"
                                         className="shrink object-contain lg:w-40 md:w-48 h-64 p-4"
                                     />
@@ -59,9 +59,9 @@ function HeroSectionv2() {
                                     <img
                                         src="/Publishing.png"
                                         alt="interactive"
-                                        className="shrink object-cover lg:w-32 md:w-28 h-64 p-4"
+                                        className="shrink object-cover lg:w-24 md:w-28 h-64 p-4"
                                     />
-                                    <p className="text-center whitespace-normal text-[18px]">
+                                    <p className="text-center whitespace-normal lg:text-[14px] md:text-[18px]">
                                         Publishing and Printed Media
                                     </p>
                                 </div>
@@ -71,7 +71,7 @@ function HeroSectionv2() {
                                     <img
                                         src="/PerformingArts.png"
                                         alt="interactive"
-                                        className="shrink object-contain lg:w-40 md:w-56 lg:h-64 md:h-80 p-4"
+                                        className="shrink object-contain lg:w-28 md:w-56 lg:h-64 md:h-80 p-4"
                                     />
                                     <p className="text-center text-[18px]">Performing Arts</p>
                                 </div>
@@ -79,31 +79,31 @@ function HeroSectionv2() {
                             <a href='/results/visualarts' className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
                                 <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[28vh] flex flex-col items-center md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
-                                        src="/Visual.png"
+                                        src="/Visual2nd.png"
                                         alt="interactive"
-                                        className="shrink object-contain lg:w-40 md:w-56 h-64 p-4"
+                                        className="shrink object-contain lg:w-28 md:w-56 h-64 p-4"
                                     />
                                     <p className="text-center text-[18px]">Visual Arts</p>
                                 </div>
                             </a>
                             <a href="/results/traditional" className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
-                                <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[28vh] flex flex-col items-center md:w-full md:h-[22vh] rounded-2xl bg-slate-50">
+                                <div className="lg:p-8 md:p-0 lg:w-[16vw] lg:h-[28vh] flex flex-col items-center md:w-full md:h-[22vh] rounded-2xl bg-slate-50">
                                     <img
-                                        src="/PerformingArts2.png"
+                                        src="/trad.webp"
                                         alt="interactive"
                                         className="shrink object-contain w-48 h-36  p-4"
                                     />
-                                    <p className="text-center text-[18px]">
+                                    <p className="text-center lg:text-[14px] md:text-[18px]">
                                         Traditional Cultural <br /> Expressions
                                     </p>
                                 </div>
                             </a>
                             <a href="/results/culturalsites" className="p-2 flex transition-all duration-1000 ease lg:w-full md:w-[50%] justify-center items-center">
-                                <div className="lg:p-10 md:p-0 lg:w-[16vw] lg:h-[28vh] flex flex-col items-center md:w-full md:h-full rounded-2xl bg-slate-50">
+                                <div className="lg:p-8 md:p-0 lg:w-[16vw] lg:h-[28vh] flex flex-col items-center md:w-full md:h-full rounded-2xl bg-slate-50">
                                     <img
-                                        src="/Visual2nd.png"
+                                        src="/Cultural.png"
                                         alt="interactive"
-                                        className="shrink object-contain lg:w-40 md:w-56 h-64 p-4"
+                                        className="shrink object-contain lg:w-32 md:w-56 h-64 p-4"
                                     />
                                     <p className="text-center text-[18px]">Cultural Sites</p>
                                 </div>
