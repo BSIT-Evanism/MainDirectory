@@ -41,11 +41,26 @@ function Header({ loading, routeN }) {
                         className="text-black disabled:brightness-50 text-lg leading-6 whitespace-nowrap bg-zinc-100 grow px-5 py-4 rounded-[50px] w-[30vw] max-md:max-w-full max-md:pl-1.5"
                     />
                 </form>
-                <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/cec397a0-4c8c-4319-b616-df68bb73d858?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&"
-                    className="aspect-[2.61] object-contain object-center w-[94px] overflow-hidden self-center shrink-0 max-w-full my-auto"
-                />
+                <div className="flex self-center">
+                    <a href="https://facebook.com/creativelegazpi" target='_blank'>
+                        <img
+                            src="/facebooklogo.png"
+                            width={100}
+                            height={100}
+                            className="aspect-[2.61] object-contain object-center w-[94px] overflow-hidden shrink-0 max-w-full"
+                            alt="Image description"
+                        />
+                    </a>
+                    <a href="https://instagram.com/creativelegazpi" target='_blank'>
+                        <img
+                            src="/instagramlogo.png"
+                            width={100}
+                            height={100}
+                            className="aspect-[2.61] object-contain object-center w-[94px] overflow-hidden shrink-0 max-w-full"
+                            alt="Image description"
+                        />
+                    </a>
+                </div>
             </div>
         </div>
     )

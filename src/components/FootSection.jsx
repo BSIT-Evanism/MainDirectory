@@ -29,20 +29,24 @@ function FootSection() {
                 </section>
                 <section>
                     <div className="flex">
-                        <img
-                            src="/facebooklogo.png"
-                            width={100}
-                            height={100}
-                            className="aspect-[2.61] object-contain object-center w-[94px] overflow-hidden shrink-0 max-w-full"
-                            alt="Image description"
-                        />
-                        <img
-                            src="/instagramlogo.png"
-                            width={100}
-                            height={100}
-                            className="aspect-[2.61] object-contain object-center w-[94px] overflow-hidden shrink-0 max-w-full"
-                            alt="Image description"
-                        />
+                        <a href="https://facebook.com/creativelegazpi" target='_blank'>
+                            <img
+                                src="/facebooklogo.png"
+                                width={100}
+                                height={100}
+                                className="aspect-[2.61] object-contain object-center w-[94px] overflow-hidden shrink-0 max-w-full"
+                                alt="Image description"
+                            />
+                        </a>
+                        <a href="https://instagram.com/creativelegazpi" target='_blank'>
+                            <img
+                                src="/instagramlogo.png"
+                                width={100}
+                                height={100}
+                                className="aspect-[2.61] object-contain object-center w-[94px] overflow-hidden shrink-0 max-w-full"
+                                alt="Image description"
+                            />
+                        </a>
                     </div>
                 </section>
             </div>
