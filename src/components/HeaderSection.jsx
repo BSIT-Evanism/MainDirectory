@@ -38,7 +38,7 @@ function Header({ loading, routeN }) {
                         onChange={e => setSearch(e.target.value)}
                         placeholder="Search"
                         disabled={loading}
-                        className="text-black disabled:brightness-50 text-lg leading-6 whitespace-nowrap bg-zinc-100 grow px-5 py-4 rounded-[50px] w-[30vw] max-md:max-w-full max-md:pl-1.5"
+                        className="text-black disabled:brightness-50 text-lg leading-6 whitespace-nowrap bg-zinc-100 grow px-5 py-4 rounded-[50px] lg:w-[30vw] md:w-full max-md:max-w-full max-md:pl-1.5"
                     />
                 </form>
                 <div className="flex self-center">

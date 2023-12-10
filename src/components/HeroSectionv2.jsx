@@ -5,12 +5,13 @@ function HeroSectionv2() {
         <div><main>
             <div className="w-auto h-auto bg-black flex justify-center px-10">
                 <div className="w-full h-full lg:flex md:block">
-                    <div className="lg:w-[30%] md:w-full lg:h-full justify-center flex md:h-[20%]">
-                        <h1 className="text-[max(5vw,40px)] lg:text-end md:text-center text-white">
+                    <div className="lg:w-[30%] md:w-full lg:h-full justify-center flex flex-col md:h-[20%]">
+                        <h1 className="text-[max(5vw,40px)] leading-tight lg:text-end md:text-center text-white">
                             Creative
                             <br />
-                            <span className="font-bold">Directory</span>
+                            <span className="font-bold text-end">Directory</span>
                         </h1>
+                        <p className='mt-10 lg:text-2xl md:text-lg text-end'>This is only the Creative Directory v0.0.1 of the platform, for preview purposes only...</p>
                     </div>
                     <div className="lg:w-[70%] lg:col-span-3 md:col-span-6 md:w-screen lg:h-full md:h-fit">
                         <div className="w-full [&:has(a:hover)>a:not(:hover)]:scale-75 [&:has(a:hover)>a:not(:hover)]:brightness-75 h-full p-4 grid lg:grid-cols-3 md:grid-cols-2">
